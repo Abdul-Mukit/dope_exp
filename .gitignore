@@ -1,0 +1,6 @@
+.idea
+Models
+*.pth
+*.jpg
+*.png
+/venv
