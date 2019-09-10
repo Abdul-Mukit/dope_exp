@@ -9,7 +9,9 @@ weights: {
     # "soup":"soup_60.pth",
     #"sugar":"sugar_60.pth",
     #"cautery":"net_epoch_217.pth" # The 48 hour model
-     "cautery":"cautery_s6_60.pth"
+#    "cautery":"cautery_s6_60.pth"
+#     "cautery_hand":"net_hand_cautery_60.pth"
+     "face":"net_face_60.pth"
 }
 
 # Cuboid dimension in cm x,y,z
@@ -20,7 +22,10 @@ dimensions: {
     "mustard": [9.6024150848388672,19.130100250244141,5.824894905090332],
     "soup": [6.7659378051757813,10.185500144958496,6.771425724029541],
     "sugar": [9.267730712890625,17.625339508056641,4.5134143829345703],
-    "cautery": [ 1.2000000476837158, 22.200000762939453, 1.2000000476837158 ]
+    "cautery": [ 1.2000000476837158, 22.200000762939453, 1.2000000476837158 ],
+    "cautery_hand": [ 12, 25, 14 ],
+    "face": [ 18.582099914550781, 22.743499755859375, 16.583499908447266 ]
+
 }
 
 draw_colors: {
@@ -30,7 +35,9 @@ draw_colors: {
     "mustard": [217,12, 232],  # magenta
     "soup": [255, 101, 0],  # orange
     "sugar": [232, 222, 12],  # yellow
-    "cautery": [232, 222, 12]  # yellow
+    "cautery": [232, 222, 12],  # yellow
+    "cautery_hand": [232, 222, 12],  # yellow
+    "face": [232, 222, 12]  # yellow
 }
 
 # Camera intrinsics 
